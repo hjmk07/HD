@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Edwardian Script";
+  direction: rtl;
+}
+
+.imglogo {
+  mix-blend-mode: multiply;
+  height: 500px;
+  width: 50%px;
+}
+
+.onlythis {
+  display: grid;
+  gap: 50px;
+  place-items: center;
+}
+
+@media (min-width: 1000px) {
+  .eyehair {
+    width: 70%;
+  }
+}
